@@ -1,0 +1,32 @@
+{
+  "name": "backend-login",
+  "version": "1.0.0",
+  "description": "this is a to help people to login in node.js",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "npm test",
+    "startDev": "nodemon --exec babel-node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hyacinthe396/backend-login.git"
+  },
+  "author": "Hycanthe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hyacinthe396/backend-login/issues"
+  },
+  "homepage": "https://github.com/Hyacinthe396/backend-login#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.12.1",
+    "@babel/core": "^7.12.3",
+    "@babel/node": "^7.12.6",
+    "@babel/preset-env": "^7.12.1",
+    "@babel/register": "^7.12.1",
+    "nodemon": "^2.0.6"
+  }
+}
